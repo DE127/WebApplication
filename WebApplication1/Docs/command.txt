@@ -27,3 +27,7 @@ EntityFrameworkCore
 EntityFrameworkCore.Design
 EntityFrameworkCore.SqlServer
 EntityFrameworkCore.Tools
+
+
+// Example
+https:// ufile. io/f5j7gw6m
