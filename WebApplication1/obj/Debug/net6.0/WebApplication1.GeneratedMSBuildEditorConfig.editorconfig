@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\WebApplication\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/WebApplication/WebApplication1/Views/Banners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApplication/WebApplication1/Views/Banners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApplication/WebApplication1/Views/Banners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApplication/WebApplication1/Views/Banners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApplication/WebApplication1/Views/Banners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFubmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/WebApplication/WebApplication1/Views/Blogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
