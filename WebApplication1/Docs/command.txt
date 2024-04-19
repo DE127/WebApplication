@@ -1,0 +1,29 @@
+﻿// Connection String
+Scaffold-DbContext "Server=localhost;Database=BookStore;uid=sa;pwd=123465;MultipleActiveResultSets=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+﻿Scaffold-DbContext "Server=localhost;Database=BlogDB;uid=sa;pwd=1;MultipleActiveResultSets=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+// Kết nối với SQL Server bằng Windows Authentication
+
+Scaffold-DbContext "Server=localhost;Database=BlogDB;Trusted_Connection=True;MultipleActiveResultSets=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+// Migration
+
+Add-Migration InitialCreate
+
+Update-Database
+
+
+// Add SQL Server BDKSo3Context
+builder.Services.AddDbContext<BDKSo3Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BDKSo3Context")));
+
+You need to add the Match table in your DynamicBettingUserContext class like below. Then You need to add migration using Add-Migration <YourMigrationName> in Package Manager Console and finally, You have to run Update-Database command in PMC.
+
+public virtual DbSet<Match> Match { get; set; }
+
+// Entity Package
+EntityFrameworkCore
+EntityFrameworkCore.Design
+EntityFrameworkCore.SqlServer
+EntityFrameworkCore.Tools
