@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "F:\\WebApplication\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "F:\\WebApplication\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "F:\\WebApplication\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "F:\\WebApplication\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\ASUSVivobook\\.nuget\\packages\\",
-        "outputPath": "F:\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "F:\\WebApplication\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUSVivobook\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
